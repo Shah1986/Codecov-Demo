@@ -3,18 +3,18 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- none
-pr: 
-  branches: 
-     include: 
-     - main
-pool:
-  vmImage: ubuntu-latest
-steps:
-- task: CmdLine@2
-  inputs:
-    script: |
-      echo Write your commands here
+# trigger:
+# - none
+# pr: 
+#   branches: 
+#      include: 
+#      - main
+# pool:
+#   vmImage: ubuntu-latest
+# steps:
+# - task: CmdLine@2
+#   inputs:
+#     script: |
+#       echo Write your commands here
       
-      echo Hello world
+#       echo Hello world
